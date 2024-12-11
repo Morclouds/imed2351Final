@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="startScreen">
+        <h1>The Snake Game</h1>
+        <p>Welcome to the Snake Game! Use the arrow keys to move the snake:</p>
+        <ul>
+            <li><strong>Arrow Up:</strong> Move up</li>
+            <li><strong>Arrow Down:</strong> Move down</li>
+            <li><strong>Arrow Left:</strong> Move left</li>
+            <li><strong>Arrow Right:</strong> Move right</li>
+        </ul>
+        <p>Eat the food to grow your snake, but don't hit the walls or yourself. Good luck!</p>
+        <button id="startButton">Start Game</button>
+    </div>
+    <canvas id="gameCanvas" width="400" height="400" style="display: none;"></canvas>
+    <button id="resetButton" style="display: none;">Reset Game</button>
+    <script src="app.js"></script>
+</body>
+</html>
+
